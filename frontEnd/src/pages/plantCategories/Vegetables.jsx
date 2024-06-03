@@ -12,7 +12,7 @@ const Vegetables = () => {
   useEffect(() => {
     fetchPlantByCategories(`?category=Vegetables`)(dispatch);
   }, [dispatch]);
-  console.log("plant categories", plantCategory);
+
   return (
     <>
       <div className="bg-white relative top-[19%] px-5">
